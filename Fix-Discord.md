@@ -1,3 +1,5 @@
+**Note here : These steps only work on Webcord and Discord in a browser, i have tried in discrod app, vestop, discord-screenaudio and more..doesnt work for me, but you can give a try**
+
 The error you're encountering indicates that several packages depend on a `pipewire-session-manager` to function properly. Both `wireplumber` and `pipewire-media-session` can serve as session managers for PipeWire, but your system currently has `wireplumber` installed as the session manager. To resolve this dependency issue and switch to `pipewire-media-session`, you will need to replace `wireplumber` with `pipewire-media-session` without breaking the dependencies.
 
 Here's how you can proceed:
